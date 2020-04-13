@@ -12,7 +12,9 @@ package = 'netlify-plugin-inspector-json'
 ### Custom path
 By default, the plugin assumes your `package.json` lies in the root directory. You can provide a custom path in your `netlify.toml` if desired.
 
+```
 [[plugins]]
 package = 'netlify-plugin-inspector-json'
   [plugins.inputs]
   path = 'yourpathhere'
+```
