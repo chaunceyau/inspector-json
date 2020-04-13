@@ -1,23 +1,25 @@
 {
-  "name": "inspector-json",
+  "name": "netlify-plugin-inspector-json",
   "version": "1.0.0",
   "description": "Detects out-of-place configuration in package.json before shipping",
   "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chaunceyau/inspector-json.git"
   },
   "keywords": [
     "package.json",
-    "json"
+    "json",
+    "netlify",
+    "netlify-plugin"
   ],
   "author": "Austin Chauncey",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/chaunceyau/inspector-json/issues"
   },
-  "homepage": "https://github.com/chaunceyau/inspector-json#readme"
+  "homepage": "https://github.com/chaunceyau/inspector-json#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
 }
