@@ -1,2 +1,5 @@
 # manifest.yml
 name: netlify-plugin-inspector-json
+inputs:
+  - name: path
+    required: false
